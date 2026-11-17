@@ -26,6 +26,8 @@ pre{white-space:pre-wrap;font:inherit;margin:0}a{color:var(--accent)}small{color
 <p>여러 기기를 함께 쓰거나 AI 그림을 쓰려고 보호자 계정을 만들면, 이메일 주소와 앱 데이터(위 2의 내용과 카드 사진)가 기기 맞추기를 위해 서버(Supabase)에 저장돼요. 같은 계정으로 로그인한 기기에서만 볼 수 있고, 전송할 때는 암호화돼요. 계정과 서버 데이터는 앱의 보호자 모드 › 설정 › 기기 연결 › '계정과 데이터 삭제'에서 바로 지울 수 있고, 이메일로 요청해도 지워 드려요(<a href="delete-account.html">계정 삭제 안내</a>).</p>
 <h2>4. AI 그림(선택)</h2>
 <p>보호자가 'AI 그림'을 쓰면 고른 사진과 요청 글이 그림을 만들기 위해 외부 이미지 생성 서비스(Higgsfield)로 보내져요. 이 서비스는 그림을 만드는 데에만 사진을 처리해요. 얼굴·이름표·주소가 보이는 사진은 쓰지 말아 주세요. 만든 그림은 요청한 보호자에게만 보이고 다른 사람에게 공개되지 않아요. '절약' 방식은 여러 요청을 한 번에 모아 그리지만, 결과는 각자에게만 돌아가요.</p>
+<h2>4-1. 영상 보상(선택)</h2>
+<p>보호자가 유튜브 영상을 영상 보상으로 등록하면, 그 영상은 유튜브(Google)의 공식 플레이어로 앱 안에서 재생돼요. 이때 유튜브가 재생과 광고를 위해 정보를 처리하며, <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>과 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>이 적용돼요. 등록한 영상 목록은 앱 데이터에 함께 저장돼요. 영상 보상을 쓰지 않으면 유튜브와 연결되지 않아요.</p>
 <h2>5. 결제</h2>
 <p>구독 결제는 App Store 또는 Google Play가 처리해요. 앱은 카드 번호 같은 결제 정보를 받지 않고, 구독이 활성인지만 확인해요.</p>
 <h2>6. 아동</h2>
@@ -47,6 +49,8 @@ pre{white-space:pre-wrap;font:inherit;margin:0}a{color:var(--accent)}small{color
 <p>If you create a guardian account to link devices or use AI pictures, your email address and app data (section 2 and card photos) are stored on a server (Supabase) to sync your devices. Only devices signed in to the same account can see them, and data is encrypted in transit. You can delete the account and its server data in the app (guardian mode › Settings › Devices › 'Delete account and data') or by emailing us (<a href="delete-account.html">account deletion</a>).</p>
 <h2>4. AI pictures (optional)</h2>
 <p>When a guardian uses AI pictures, the chosen photo and request text are sent to an external image service (Higgsfield) to create the picture. The service processes the photo only to create the picture. Please avoid photos showing faces, name tags or addresses. Created pictures are visible only to the guardian who requested them and are never shared with others. 'Saving' mode draws several requests together, but each result goes back only to its requester.</p>
+<h2>4-1. Video rewards (optional)</h2>
+<p>If a guardian adds YouTube videos as video rewards, they play inside the app in YouTube’s (Google’s) official player. YouTube processes information for playback and ads under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The list of added videos is saved with the app data. If you do not use video rewards, the app does not connect to YouTube.</p>
 <h2>5. Payments</h2>
 <p>Subscriptions are handled by the App Store or Google Play. The app never receives card numbers or other payment details; it only checks whether a subscription is active.</p>
 <h2>6. Children</h2>
