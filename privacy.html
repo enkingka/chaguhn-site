@@ -30,6 +30,8 @@ pre{white-space:pre-wrap;font:inherit;margin:0}a{color:var(--accent)}small{color
 <p>보호자가 유튜브 영상을 영상 보상으로 등록하면, 그 영상은 유튜브(Google)의 공식 플레이어로 앱 안에서 재생돼요. 이때 유튜브가 재생과 광고를 위해 정보를 처리하며, <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>과 <a href="https://www.youtube.com/t/terms">YouTube 서비스 약관</a>이 적용돼요. 등록한 영상 목록은 앱 데이터에 함께 저장돼요. 영상 보상을 쓰지 않으면 유튜브와 연결되지 않아요.</p>
 <h2>4-2. 의견 보내기(선택)</h2>
 <p>보호자 모드의 '의견 보내기'로 보낸 내용과, 적은 경우 답장받을 이메일, 그리고 앱 버전·기기 종류·언어가 서버(Supabase)에 저장돼요. 아이 이름이나 기록은 보내지 않아요. 앱을 고치고 답장하는 데만 쓰고, 이메일로 요청하면 지워 드려요. 로그인한 상태로 보냈다면 계정을 지울 때 함께 지워져요.</p>
+<h2>4-3. AI 목소리(선택, 기본 켬)</h2>
+<p>AI 목소리를 켜 두면, 소리로 읽을 글자(카드 이름·문장)가 자연스러운 목소리를 만들기 위해 서버(Supabase)를 거쳐 Google Gemini 음성 서비스로 보내져요. 만든 소리 파일은 다시 쓰려고 서버와 기기에 저장돼요(파일 이름은 글을 알아볼 수 없는 값이에요). 아이 이름·기록·계정 정보는 함께 보내지 않아요. 카드 이름에 아이 이름을 넣었다면 그 글자도 보내져요. 보호자 모드 › 설정 › 프로필·언어 › 읽어 주는 목소리에서 끄면 기기 목소리만 써요.</p>
 <h2>5. 결제</h2>
 <p>구독 결제는 App Store 또는 Google Play가 처리해요. 앱은 카드 번호 같은 결제 정보를 받지 않고, 구독이 활성인지만 확인해요.</p>
 <h2>6. 아동</h2>
@@ -55,6 +57,8 @@ pre{white-space:pre-wrap;font:inherit;margin:0}a{color:var(--accent)}small{color
 <p>If a guardian adds YouTube videos as video rewards, they play inside the app in YouTube’s (Google’s) official player. YouTube processes information for playback and ads under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The list of added videos is saved with the app data. If you do not use video rewards, the app does not connect to YouTube.</p>
 <h2>4-2. Feedback (optional)</h2>
 <p>When you use 'Send feedback' in guardian mode, your message, an optional reply email, and the app version, device type and language are stored on the server (Supabase). Your child's name and records are not sent. We use it only to improve the app and to reply, and delete it on request by email. Feedback sent while signed in is deleted together with the account.</p>
+<h2>4-3. AI voice (optional, on by default)</h2>
+<p>With the AI voice on, the text to be read aloud (card names and sentences) is sent through our server (Supabase) to the Google Gemini speech service to create a natural voice. The audio files are stored on the server and the device to be reused (file names do not reveal the text). Your child's name, records and account details are not sent with it, but if you typed a child's name into a card name, that text is sent. Turn it off in guardian mode › Settings › Profile and language › Reading voice to use only the device voice.</p>
 <h2>5. Payments</h2>
 <p>Subscriptions are handled by the App Store or Google Play. The app never receives card numbers or other payment details; it only checks whether a subscription is active.</p>
 <h2>6. Children</h2>
